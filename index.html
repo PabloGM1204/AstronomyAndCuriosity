@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy And Curiosities</title>
+    <!--Enlace a la hoja de estilo-->
+    <link rel="stylesheet" href="./css/index.css">
+    <!--Enlace al js-->
+    <script src="./js/top.js"></script>
+    <!--Enlace al favicon-->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!--Enlace a los iconos de la social media-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Enlace para el nav-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="wrapper">
+    <span class="ir-arriba fa fa-angle-up" id="arriba"></span>
+      <!--Barra de navegación de arriba-->
+      <nav id="navegation">
+        <div class="topnav" id="myTopnav">
+          <a href="#Intro" class="active"><strong>Intro</strong></a>
+          <a href="#Astrofotos"><strong>Astropictures</strong></a>
+          <a href="#Misiones"><strong>Mission</strong></a>
+          <a href="#Sitios"><strong>Places</strong></a>
+          <a href="./attendance.html"><strong>Attendance</strong></a>
+          <a href="https://nasa.gov"><strong>WebGrafía</strong></a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+      </nav>
+      <!--Hero Section-->
+      <div id="hero">
+        <h1 id="title">Astronomy<br>And<br>Curiosities</h1>
+      </div>
+      <!--Introducción-->
+      <div id="Intro">
+      <h1 id="title-intro">Introduction</h1>
+      <div id="row">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./img/planetas.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+              <h1>Planets</h1>
+              <p class="texto">An astronomical object orbiting a star that is massive enough to be rounded by its own gravity, but not massive enough to cause thermonuclear fusion, and that has cleared its neighboring region of planetesimals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./img/cometa.png" alt="Avatar" >
+            </div>
+            <div class="flip-card-back">
+              <h1>Kites</h1>
+              <p class="texto">Celestial body made up of dust, rocks and ice particles that orbits the Sun following different elliptical trajectories.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./img/galaxia.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+              <h1>Galaxies</h1>
+              <p class="texto">Set of stars, gas clouds, planets, cosmic dust, dark matter and energy gravitationally united in a more or less defined structure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./img/constelacion.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+              <h1>Osa Mayor</h1>
+              <p class="texto">Also known as the Greater Car, it is a constellation visible throughout the year in the northern hemisphere. It is known by the name of "the chariot", because of the way its seven main stars are drawn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <!--Galería-->
+      <div id="Astrofotos">
+        <h1 id="title-astro">AstroPictures</h1>
+        <div class="grid-gallery">
+          <a class="grid-gallery__item" href="./img/andromeda.jpg">
+              <img class="grid-gallery__image" src="./img/andromeda.jpg">
+          </a>
+          <a class="grid-gallery__item" href="./img/aurora.jpg">
+              <img class="grid-gallery__image" src="./img/aurora.jpg">
+          </a>
+          <a class="grid-gallery__item" href="./img/cumulo del.jpg">
+            <img class="grid-gallery__image" src="./img/cumulo del.jpg">
+          </a>
+          <a class="grid-gallery__item" href="./img/guiding.jpg">
+            <img class="grid-gallery__image" src="./img/guiding.jpg">
+          </a>
+          <a class="grid-gallery__item" href="./img/cuadrope.jpg">
+            <img class="grid-gallery__image" src="./img/cuadrope.jpg">
+          </a>
+          <a class="grid-gallery__item" href="./img/skyscape.jpg">
+            <img class="grid-gallery__image" src="./img/skyscape.jpg">
+          </a>
+          <a class="grid-gallery__item" href="./img/pilares.png">
+            <img class="grid-gallery__image" src="./img/pilares.png">
+          </a>
+          <a class="grid-gallery__item" href="./img/premio.jpg">
+            <img class="grid-gallery__image" src="./img/premio.jpg">
+          </a>
+      </div>
+      
+      </div>
+      <!--Misiones-->
+      <div id="Misiones">
+        <h1 id="title-astro">Most famous missions</h1>
+        <div id="grid">
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/OGI9e0lgbvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <div id="texto-not">
+            <h1 id="title-not">Artemis 1</h1>
+            All eyes will be on the historic Launch Complex 39B when the Orion spacecraft and the Space Launch System (SLS) rocket lift off for the first time from NASA's modernized Kennedy Space Center in Florida.
+
+            Artemis I will be the first in a series of increasingly complex missions to build a long-term human presence at the Moon for decades to come.
+
+            The primary goals for Artemis I are to demonstrate Orion’s systems in a spaceflight environment and ensure a safe re-entry, descent, splashdown, and recovery prior to the first flight with crew on Artemis II.
+          </div>
+
+            <div id="texto-not">
+              <h1 id="title-not2">Apollo 11</h1>
+              Apollo 11 was the fifth manned mission of the United States Apollo Program and the first in history to land a human being on the Moon. The Apollo mission spacecraft was sent into space on July 16, 1969, landed on the moon on July 20 of that same year, and the next day two astronauts (Armstrong and Aldrin) became the first to walk on the lunar surface. . Apollo 11 was propelled by a Saturn V rocket from the LC 39A pad and launched at 13:32 UTC from the Cape Kennedy complex in Florida (USA). The mission was officially known as AS-506. The mission was a decisive milestone for NASA against the Soviet Union's space program during the space race and is considered one of the most significant moments in human history.
+            </div>
+
+            <div class="video">
+            <iframe src="https://www.youtube.com/embed/QqYBkKe-1vQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      <!--Sitios-->
+
+      <div id="Sitios">
+        <h1 id="title-sitios">The best places to see the sky</h1>
+        <div id="maps">
+          <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14594.89792068917!2d-69.14136204798825!3d-23.863915512743013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96af46527fef1c47%3A0x34dbbb7aa8223dc!2sDesierto%20de%20Atacama!5e0!3m2!1ses!2ses!4v1670691962749!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div>
+            <h1 id="title-sit">Desierto de Atacamas, Chile</h1>
+            <p>The most important astronomical observatories in the world are located in Chile: Paranal, La Silla, Las Campanas, Cerro Tololo... The Extremely Large European Telescope (E-ELT) is being built on Cerro Paranal, called to be the largest optical observatory in the world, with a telescope 100 meters in diameter.</p>
+          </div>
+          <div>
+            <h1 id="title-sit">La Palma, Islas Canarias, España</h1>
+            <p>The Canary Islands are another privileged enclave to see the stars. On the island of La Palma is the Roque de los Muchachos observatory, belonging to the Instituto de Astrofísica de Canarias, which has more than a dozen instruments managed by different countries. The island's location in the middle of the Atlantic and its height above sea level make Isla Bonita the favorite place for many astronomers.</p>
+          </div>
+          <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d161588.80212287325!2d-15.49330006601243!3d28.102306687085523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4094518b44a92f%3A0x40340f3be4d13e0!2sLas%20Palmas%20de%20Gran%20Canaria%2C%20Las%20Palmas!5e0!3m2!1ses!2ses!4v1670692518037!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </div>
+      </div>
+      <!--Footer-->
+      <div id="Footer">
+        <div id="grid2">
+          <div>
+            <li><a id="title-fot" href="#Misiones"><strong>Missions</strong></a><br></li>
+            <li><a id="title-fot" href="#Intro"><strong>Introduction</strong></a><br></li>
+            <li><a id="title-fot" href="#Astrofotos"><strong>AstroPictures</strong></a><br></li>
+            <li><a id="title-fot" href="https://www.nasa.gov/"><strong>WebGrafía</strong></a></li>
+          </div>
+          <div>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <script src="./js/main.js"></script>
+      <script src="./js/top.js"></script>
+  </body>
+</html>
